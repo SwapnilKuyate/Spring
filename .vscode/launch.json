@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyFirstAppApplication",
+            "request": "launch",
+            "mainClass": "com.edigest.MyFirstApp.MyFirstAppApplication",
+            "projectName": "MyFirstApp"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-RestApiApplication<REST_API>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
